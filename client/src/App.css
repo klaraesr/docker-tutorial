@@ -1,16 +1,18 @@
 .App {
   text-align: center;
+  width: 38%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px){
+  .App {
+    width: 60%;
+  }
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -28,11 +30,31 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answer {
+  text-align: left;
+  color: rgb(131, 177, 112);
+  margin-bottom: 10px;
+}
+
+.question {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.easter-eggs {
+  width: 60%;
+  object-fit: scale-down;
+}
+
+h3 {
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.source-div {
+  font-size: 10px;
+  color: grey;
+  margin-top: 50px;
 }
