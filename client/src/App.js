@@ -6,7 +6,7 @@ const trivia = {
   title: "Hmm.. I wonder what the answers to these questions are?",
   questions: [
     "How many companies use Docker?",
-    "How many total repos are there on Docker Hub?", 
+    "How many total repos are there on Docker Hub?",
     "The company behind Docker is called Docker, Inc. But that hasn't always been their name. What was Docker, Inc. called before?",
     "How many total pulls have been done on Docker Hub?"
   ]
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-        <img className="easter-eggs" src={apiResponse.image}/>
+        <img className="easter-eggs" src={apiResponse.image} alt="Easter egg"/>
         <h2>{apiResponse.title}</h2>
         <h3>{apiResponse.description}</h3>
         {apiResponse.questions && apiResponse.questions.map(question => (
