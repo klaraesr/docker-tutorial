@@ -1,4 +1,4 @@
-# Examlpe application for Docker tutorial
+# Example application for Docker tutorial
 Authors: Christina Sunnegårdh and Klara Eserstam
 
 An example application with a React frontend and Node.js backend, to be dockerized separately. 
