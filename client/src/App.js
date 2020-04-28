@@ -19,7 +19,7 @@ function App() {
   },[])
 
   const callAPI = () => {
-    fetch("http://localhost:9000/trivia")
+    fetch("/trivia")
         .then(res => res.json())
         .then(res => setApiResponse(res))
         .catch(() => setApiResponse(trivia))
